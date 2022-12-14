@@ -49,10 +49,10 @@ menuItem(2).HaloMegaMenu({
     cateColumns: 3,             //columns of categories area - max 3 columns - work only with dropAlign: 'fullwidth'
     //contents for images column (HTML supported)
     contents: '<div class="four-images">\
-                    <a href="#"><img src="assets/images/megamenu/mega-menu-1.jpg"/></a>\
-                    <a href="#"><img src="assets/images/megamenu/mega-menu-2.jpg"/></a>\
-                    <a href="#"><img src="assets/images/megamenu/mega-menu-3.jpg"/></a>\
-                    <a href="#"><img src="assets/images/megamenu/mega-menu-4.jpg"/></a>\
+                    <a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-1.jpg"/></a>\
+                    <a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-2.jpg"/></a>\
+                    <a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-3.jpg"/></a>\
+                    <a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-4.jpg"/></a>\
                 </div>',
     customCates: ''
 });
@@ -67,11 +67,11 @@ menuItem(3).HaloMegaMenu({
     cateColumns: 3,             //columns of categories area - max 3 columns - work only with dropAlign: 'fullwidth'
     //contents for images column (HTML supported)
     contents: '<div class="col-left">\
-                <a href="#"><img src="assets/images/megamenu/mega-menu-5.jpg"/></a>\
-                <a href="#"><img src="assets/images/megamenu/mega-menu-6.jpg"/></a>\
+                <a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-5.jpg"/></a>\
+                <a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-6.jpg"/></a>\
             </div>\
             <div class="col-right">\
-                <a href="#"><img src="assets/images/megamenu/mega-menu-7.jpg"/></a>\
+                <a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-7.jpg"/></a>\
             </div>',
     //information at bottom categories
     bottomCate: '<div class="container own-text"><p>Phasellus lorem malesuada ligula pulvinar commodo maecenas. <a href="#">Details</a> <span>*</span></p></div>'
@@ -87,7 +87,7 @@ menuItem(4).HaloMegaMenu({
     cateAreaWidth: '60%',       //width of categories area
     cateColumns: 3,             //columns of categories area - max 3 columns - work only with dropAlign: 'fullwidth'
     //contents for images column (HTML supported)
-    contents: '<a href="#"><img src="assets/images/megamenu/mega-menu-8.jpg"/></a>',
+    contents: '<a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-8.jpg"/></a>',
     customCates: ''
 });
 
@@ -99,5 +99,5 @@ menuItem(5).HaloMegaMenu({
     cateAreaWidth: '50%',       //width of categories area
     cateColumns: 1,             //columns of categories area - max 3 columns - work only with dropAlign: 'fullwidth'
     //contents for images column (HTML supported)
-    contents: '<a href="#"><img src="assets/images/megamenu/mega-menu-9.jpg"/></a>'
+    contents: '<a href="#"><img src="assets/templates/bridov2-core/images/megamenu/mega-menu-9.jpg"/></a>'
 });
