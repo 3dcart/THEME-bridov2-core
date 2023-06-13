@@ -1787,6 +1787,9 @@ nav#mobile-customer ul li .logged-in a {
 .header-bottom #searchBox .search-form {
   position: relative;
 }
+div.searchlight-balloon {
+    top: auto !important;
+}
 .header-bottom .wishlist-link {
     display: inline-block;
     float: right;
@@ -3855,7 +3858,7 @@ img {
       width: 52%;
       display: -ms-flexbox;
       display: -webkit-flex;
-      display: flex;
+      display: table;
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
@@ -3865,6 +3868,10 @@ img {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
    }
+    .logo {
+        display: table-cell;
+        vertical-align: middle;
+    }
    .header-bottom #searchBox .search-toggle {
       width: 12%;
       left: 12%;
