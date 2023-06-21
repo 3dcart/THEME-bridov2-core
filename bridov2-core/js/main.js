@@ -486,3 +486,7 @@ var SidebarMenuEffects = (function() {
    init();
 
 })();
+
+setTimeout(function(){
+      $('.antiCls').css("visibility", "visible");
+  }, 800);
