@@ -27,6 +27,13 @@ body {
      line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.view-cart #dropdown-cart .order-summary {
+    border-bottom: none;
+    padding-bottom: 15px;
+}
+.view-cart #dropdown-cart .cart-box {
+    border: none;
+}
 h1 {
     font-size: 30px;
 }
