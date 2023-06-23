@@ -1,6 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 body {
 	display: flex;
 	height: 100%;
@@ -18,7 +19,9 @@ body *:focus-visible {
 footer {
 	flex-shrink: 0;
 }
-
+.antiCls{
+    visibility: hidden; 
+}
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -1791,11 +1794,11 @@ nav#mobile-customer ul li .logged-in a {
 .header-bottom #FRAME_SEARCH {
     display: inline-block;
 }
-.header-bottom #searchBox .search-form {
-  position: relative;
-}
 div.searchlight-balloon {
     top: auto !important;
+}
+.header-bottom #searchBox .search-form {
+  position: relative;
 }
 .header-bottom .wishlist-link {
     display: inline-block;
@@ -7417,7 +7420,7 @@ Copyright (c) 2015 Daniel Eden
 }
 #dropdown-cart {
    position: absolute;
-   z-index: 11;
+   z-index: 999;
    top: 32px;
    left: -9999px;
    min-width: 300px;

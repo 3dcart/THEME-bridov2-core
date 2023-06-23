@@ -5,7 +5,18 @@
             <div class="homeCarousel flexslider" data-animation="[hc_effect]" data-slideshowspeed="[hc_delay]" role="region" aria-label="Carousel">
                 <ul class="slides owl-carousel">
                     <!--START: carousel-->
-                    <li><a href="[link]"><img src="[image]" alt="" width="1770" height="820" /></a></li>
+                    <li>
+                        <a href="[link]" aria-label="Carousel scroll button">
+                            <img width="425" height="220" srcset="
+                            /cdn-cgi/image/format=auto,fit=contain,width=320/[image]   320w,
+                            /cdn-cgi/image/format=auto,fit=contain,width=480/[image]   480w,
+                            /cdn-cgi/image/format=auto,fit=contain,width=640/[image]   640w,
+                            /cdn-cgi/image/format=auto,fit=contain,width=960/[image]   960w,
+                            /cdn-cgi/image/format=auto,fit=contain,width=1170/[image]  1200w
+                            "
+                            src="/cdn-cgi/image/format=auto,width=1170/[image]" alt="[image]" class="img-responsive" />
+                        </a>
+                    </li>
                     <!--END: carousel-->
                 </ul>
             </div>
@@ -20,7 +31,7 @@
 		</section>
 		<!--END: CATEGORY_HEADER-->
 
-        <div id="home-top-banners">
+        <div id="home-top-banners" class="antiCls">
           <div class="container">
             <h3 class="module-heading wow fadeInUp" data-wow-delay="0.1s"><span>Collections</span></h3>
              <ul class="row">
@@ -66,7 +77,7 @@
                    </a>
                    <a class="img-text" href="#"><h4>Comos De Milano</h4></a>
                 </li>
-                 </ul>
+              </ul>
              </div>
           </div>
         <!-- /#home-top-banners -->   
@@ -244,7 +255,21 @@
 </section>
 
 <!--START: template_styles-->
-<link rel="stylesheet" href="/assets/templates/common-core/lib/flexslider/flexslider.css" type="text/css" media="screen" />
+<link
+    rel="preload stylesheet"
+    href="/assets/templates/common-core/lib/flexslider/flexslider.css"
+    as="style"
+    media="screen"
+    onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript>
+    <link
+        href="/assets/templates/common-core/lib/flexslider/flexslider.css"
+        rel="stylesheet"
+        type="text/css"
+        media="screen"
+    />
+</noscript>
 <!--END: template_styles-->
 
 <!--START: template_scripts-->
@@ -265,7 +290,7 @@
 </script>
 
 
-<script type="text/javascript" src="assets/templates/[template]/js/parallax-scroll.js"></script>
-<script type="text/javascript" src="assets/templates/[template]/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/templates/[template]/js/parallax-scroll.js" defer="defer"></script>
+<script type="text/javascript" src="assets/templates/[template]/js/owl.carousel.min.js" defer="defer"></script>
 <!--END: template_scripts-->
 
