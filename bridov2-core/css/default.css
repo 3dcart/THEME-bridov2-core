@@ -693,12 +693,12 @@ span.freeshipping {
 .product-item .img .action.action-btns .add-to-cart {
     width: 85%;
     display: block;
-    margin: 0 auto 12px auto;
+    margin: 0 auto 0px auto;
 }
 
 .product-item .img .action.action-btns .reviews{
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 .product-item .img .action.action-btns .quickview {
     width: 100%;
